@@ -89,7 +89,7 @@
 
             let number = numberInput.value;
 
-            let a = await fetch(`https://numbersapi.com/${number}/math`);
+            let a = await fetch(`http://numbersapi.com/${number}/math`);
             let b = await a.text();
             console.log(b);
             if (number != '') {
